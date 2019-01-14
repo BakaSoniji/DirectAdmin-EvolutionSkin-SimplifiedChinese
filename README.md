@@ -5,7 +5,7 @@
 version=66042f12d14fcebe5d2e531c34893ca53c512a52
 
 # DirectAdmin Evolution Skin Simplified Chinese
-This repo hosts a simplified Chinese (zh_CN) language file for the new DirectAdmin Evolution skin.
+This repo hosts a simplified Chinese (zh_Hans) language file for the new DirectAdmin Evolution skin.
 Please refer to https://help.directadmin.com/item.php?id=704 for installation instructions.
 
 The translation is still WIP. Many of the core features should have been translated, but areas such as mail, DNS, HTTPD configurations, etc. are still missing many of the translations. There are also other problems such as inconsistent use of half-width and full-width symbols, spacing, vocabularies, ambiguious translations, and more :P. Feel free to send me a pull request if you want to improve this language file.
