@@ -300,7 +300,7 @@ msgstr ""
 
 #: src/js/components/global/app/app-user-bar.vue:37
 msgid "<strong>Hello,</strong> %{ username }"
-msgstr "<strong>你好，</strong>% { username }"
+msgstr "<strong>你好，</strong>%{ username }"
 
 #: src/js/pages/user/email/accounts/index.vue:110
 msgid "<strong>Last Login: </strong> on %{ date } from %{ ip }"
@@ -5892,7 +5892,7 @@ msgstr "修改分销者套餐"
 
 #: src/js/pages/admin/users/resellers/modify.vue:10
 msgid "Modify Reseller: %{ user }"
-msgstr "修改分销者:% { user }"
+msgstr "修改分销者：%{ user }"
 
 #: src/js/pages/reseller/users/modify.vue:1
 #: src/js/pages/reseller/users/view.vue:32
@@ -10225,7 +10225,7 @@ msgstr "查看分销者"
 
 #: src/js/pages/admin/users/resellers/view.vue:11
 msgid "View Reseller: %{ user }"
-msgstr "查看分销者：% { user }"
+msgstr "查看分销者：%{ user }"
 
 #: src/js/pages/user/stats/domain-statistics.vue:1
 msgid "View Statistic Reports"

@@ -1,8 +1,8 @@
-# DirectAdmin EvolutionSkin 简体中文
+# DirectAdmin Evolution皮肤 简体中文
 中文介绍咱有空再加吧OTZ
 语言文件仍在施工中，如果有改进的话欢迎给咱扔个pull request w
 
-# DirectAdmin EvolutionSkin SimplifiedChinese
+# DirectAdmin Evolution Skin Simplified Chinese
 This repo hosts a simplified Chinese (zh_CN) language file for the new DirectAdmin Evolution skin.
 Please refer to https://help.directadmin.com/item.php?id=704 for installation instructions.
 
