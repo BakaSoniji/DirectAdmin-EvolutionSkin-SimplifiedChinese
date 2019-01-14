@@ -1125,6 +1125,7 @@ msgid "Appears at the very top of the template, before setting the variables."
 msgstr "添加在模板的最顶部，变量定义之前。"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:192
+#, fuzzy
 msgid "Appears in ALL location / sections. Use the LOCATION token."
 msgstr "添加在所有 location / section 里面。使用 LOCATION Token。"
 
@@ -9297,8 +9298,9 @@ msgid "The SPF record for this domain replaces the current record."
 msgstr ""
 
 #: src/js/pages/admin/custom-httpd/customize.vue:197
+#, fuzzy
 msgid "The very last entry."
-msgstr ""
+msgstr "作为最后一个条目。"
 
 #: src/js/components/local/inputs/input-text-editor.vue:36
 msgid "Theme:"
@@ -10551,8 +10553,8 @@ msgstr ""
 # ### Lang-specific vars
 # DateTime format
 msgid "format:datetime"
-msgstr "YYYY-M-D, HH:mm:ss"
+msgstr "YYYY/M/d, HH:mm:ss"
 
 # Date format
 msgid "format:date"
-msgstr "YYYY-M-D"
+msgstr "YYYY/M/d"
