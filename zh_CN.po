@@ -514,7 +514,7 @@ msgstr "账户用量信息"
 
 #: src/js/pages/user/email/filters.vue:131
 msgid "Action for filter matches:"
-msgstr "筛选器匹配的操作:"
+msgstr "筛选器匹配的操作："
 
 #: src/js/components/local/r-table/r-table-actions.vue:17
 #: src/js/pages/admin/multi-server.vue:85
@@ -544,8 +544,9 @@ msgstr "启用的数据库"
 
 #: src/js/pages/user/dashboard/_components/widgets/reseller-stats.vue:70
 #: src/js/pages/user/dashboard/_components/widgets/user-stats.vue:55
+#, fuzzy
 msgid "Active Since"
-msgstr "启用自"
+msgstr "账号创建于"
 
 #: src/js/components/local/dns/add-record-dialog.vue:136
 #: src/js/pages/admin/backups/modify.vue:68
@@ -645,7 +646,7 @@ msgstr "添加新分类"
 
 #: src/js/pages/user/_components/create-domain-pointer-dialog.vue:3
 msgid "Add New Domain Pointer"
-msgstr "添加新的别名指向"
+msgstr "添加新的域名指向"
 
 #: src/js/pages/user/dashboard/_components/widgets/ip-manager.vue:39
 msgid "Add New IP"
@@ -867,7 +868,7 @@ msgstr "管理员"
 
 #: src/js/pages/user/email/filters.vue:121
 msgid "Adult Filter:"
-msgstr "成人内容过滤器："
+msgstr "过滤成人内容："
 
 #: src/js/components/local/filemanager/files-table.vue:152
 msgid "Advanced edit"
@@ -993,8 +994,7 @@ msgstr "允许任何以 %{ domain } 结尾的域名来为这个域名发送邮�
 msgid ""
 "Allow API logins with the current User/password. Login Keys and Session Keys "
 "are always allowed."
-msgstr ""
-"允许API使用当前用户/密码登陆。这个设置不会影响账号密钥和会话密钥的登陆。"
+msgstr "允许使用当前用户/密码登陆API。这个设置不会影响登陆Key和会话Key的登陆。"
 
 #: src/js/components/local/dns/spf-editor.vue:26
 msgid "Allow current IP address of the domain to send email for this domain"
@@ -1626,7 +1626,7 @@ msgstr "拦截 %{ subject }"
 
 #: src/js/pages/user/email/filters.vue:87
 msgid "Block a specific E-mail address"
-msgstr "拦截一个指明的邮箱地址"
+msgstr "拦截一个特定的邮箱地址"
 
 #: src/js/pages/user/email/filters.vue:93
 msgid "Block all e-mails containing stop words"
@@ -2071,7 +2071,7 @@ msgstr "列数"
 #: src/js/components/local/r-table/r-table-buttons-before.vue:22
 #: src/js/components/local/r-table/r-table-settings-dialog.vue:7
 msgid "Columns"
-msgstr "列数"
+msgstr "栏目"
 
 #: src/js/pages/admin/cron-jobs.vue:12 src/js/pages/user/cronjobs/create.vue:94
 #: src/js/pages/user/cronjobs/index.vue:17
@@ -2352,7 +2352,7 @@ msgstr "创建域名"
 
 #: src/js/pages/user/domain-pointers.vue:18
 msgid "Create Domain Pointer"
-msgstr "创建别名指向"
+msgstr "创建域名指向"
 
 #: src/js/pages/user/email/forwarders.vue:22
 msgid "Create E-mail Forwarder"
@@ -2823,13 +2823,13 @@ msgstr[0] "天前"
 #: src/js/pages/user/cronjobs/index.vue:17 src/js/pages/admin/cron-jobs.vue:19
 #: src/js/pages/user/cronjobs/index.vue:29
 msgid "Day of Month"
-msgstr "每月某日"
+msgstr "日"
 
 #: src/js/pages/admin/backups/_components/crons-table.vue:40
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:27
 #: src/js/pages/reseller/backups/index.vue:45
 msgid "Day of Month: %{dayofmonth}"
-msgstr "每月某日: %{dayofmonth}"
+msgstr "日：%{dayofmonth}"
 
 #: src/js/pages/admin/backups/modify.vue:143
 #: src/js/pages/admin/backups/schedule.vue:187
@@ -2841,13 +2841,13 @@ msgstr "每月某日: %{dayofmonth}"
 #: src/js/pages/user/cronjobs/index.vue:178 src/js/pages/admin/cron-jobs.vue:21
 #: src/js/pages/user/cronjobs/index.vue:35
 msgid "Day of Week"
-msgstr "每周的某日"
+msgstr "星期几"
 
 #: src/js/pages/admin/backups/_components/crons-table.vue:42
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:29
 #: src/js/pages/reseller/backups/index.vue:47
 msgid "Day of Week: %{dayofweek}"
-msgstr "每周的某日: %{dayofweek}"
+msgstr "星期几：%{dayofweek}"
 
 #: src/js/pages/user/messages/_dialogs/message-system-options.vue:75
 msgid "days"
@@ -3009,7 +3009,7 @@ msgstr "删除Bayes数据"
 #: src/js/pages/user/handlers/index.vue:28
 #: src/js/pages/user/mimetypes/index.vue:31
 msgid "Delete Extension"
-msgstr "删除扩展"
+msgstr "删除扩展名"
 
 #: src/js/components/local/filemanager/dialogs/delete-files-dialog.vue:3
 msgid "Delete Files"
@@ -4040,7 +4040,7 @@ msgstr "扩展名:"
 #: src/js/pages/user/mimetypes/index.vue:27
 #: src/js/pages/user/mimetypes/system.vue:15
 msgid "Extensions"
-msgstr "扩展程序"
+msgstr "扩展名"
 
 #: src/js/pages/admin/license.vue:44
 #: src/js/pages/user/dashboard/_components/widgets/license.vue:50
@@ -5296,7 +5296,7 @@ msgstr "列出分销者"
 
 #: src/js/modules/navigation/reseller.js:18 src/js/modules/widgets.js:39
 msgid "List Users"
-msgstr "列出用户"
+msgstr "用户列表"
 
 #: src/js/pages/admin/stats.vue:203
 msgid "Load Average"
@@ -5774,17 +5774,17 @@ msgstr "备份所需的最小磁盘空间(MB)"
 #: src/js/pages/user/cronjobs/index.vue:17 src/js/pages/admin/cron-jobs.vue:17
 #: src/js/pages/user/cronjobs/index.vue:23
 msgid "Minute"
-msgstr "分钟"
+msgstr "分"
 
 #: src/js/pages/user/cronjobs/index.vue:125
 msgid "Minute should be a number between 0 and 59 or *"
-msgstr "分钟必须是0到59之间的数字或是 *"
+msgstr "分钟数必须是0到59之间的数字或是 *"
 
 #: src/js/pages/admin/backups/_components/crons-table.vue:38
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:25
 #: src/js/pages/reseller/backups/index.vue:43
 msgid "Minute: %{minute}"
-msgstr "分钟: %{minute}"
+msgstr "分：%{minute}"
 
 #: src/js/pages/admin/settings.vue:403 src/js/pages/admin/settings.vue:408
 msgid "minutes"
@@ -6815,20 +6815,21 @@ msgstr ""
 
 #: src/js/pages/user/domain-pointers.vue:56
 msgid "Pointer"
-msgstr "别名指向"
+msgstr "域名指向"
 
 #: src/js/pages/user/domains/index.vue:40
 #: src/js/pages/user/domains/index.vue:52
 msgid "Pointers"
-msgstr "别名指向"
+msgstr "域名指向"
 
 #: src/js/pages/user/domain-pointers.vue:19
 msgid "Pointers limit reached"
-msgstr "达到别名指向数量上限"
+msgstr "达到域名指向数量上限"
 
 #: src/js/pages/user/domains/edit.vue:68
+#, fuzzy
 msgid "Pointers www redirect"
-msgstr "别名指向www重定向"
+msgstr "域名指向www重定向"
 
 #: src/js/pages/reseller/users/bandwidth.vue:172
 #: src/js/pages/reseller/users/bandwidth.vue:212
@@ -8526,7 +8527,7 @@ msgstr "网站重定向"
 
 #: src/js/modules/navigation/user.js:182
 msgid "Site Summary / Statistics / Logs"
-msgstr "网站摘要/统计信息/日志"
+msgstr "网站概览/统计信息/日志"
 
 #: src/js/components/local/filemanager/files-table.vue:3
 #: src/js/pages/admin/file-editor.vue:12
@@ -9281,7 +9282,7 @@ msgstr ""
 
 #: src/js/pages/user/login-keys/index.vue:109
 msgid "The login username used will still be your normal DA username."
-msgstr ""
+msgstr "使用Key登陆时，登陆用户名与当前DA用户名相同。"
 
 #: src/js/pages/user/login-keys/create.vue:158
 msgid "The priorities for allow and deny are"
@@ -10519,7 +10520,7 @@ msgstr "在创建数据库之前, 您将无法登录phpMyAdmin"
 
 #: src/js/modules/widgets.js:24
 msgid "Your Account"
-msgstr "您的账户"
+msgstr "账号概览"
 
 #: src/js/pages/user/database/_dialogs/upload-backup-dialog.vue:24
 msgid "Your current login information"
