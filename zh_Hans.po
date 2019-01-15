@@ -281,7 +281,7 @@ msgstr ""
 "二维码。\n"
 "</p>\n"
 "<p>\n"
-"Authenticator App将会生成一个用于登陆的二元认证号码。\n"
+"Authenticator App将会生成一个用于登陆的二步认证号码。\n"
 "</p>\n"
 "<p>\n"
 "在开启此功能后，如果手机不在身边，可以使用一次性的Scratch Code来代替"
@@ -420,7 +420,7 @@ msgid ""
 "A higher threshold will let more spam through, but is less likely to tag "
 "legitimate mail."
 msgstr ""
-"较高的阈值会让更多的垃圾邮件通过, 但减少正常邮件被标记为垃圾邮件的机率。"
+"较高的阈值会让更多的垃圾邮件通过, 但能减少正常邮件被标记为垃圾邮件的机率。"
 
 #: src/js/pages/user/login-keys/create.vue:15
 msgid "A label to manage the keys. This is not the login username. (a-zA-Z0-9)"
@@ -430,7 +430,8 @@ msgstr "用于管理密钥的标签。这不是登录用户名。(a-zA-Z0-9)"
 msgid ""
 "A lower threshold will block more spam, but can potentially tag legitimate "
 "mail."
-msgstr "较低的阈值会拦截更多的垃圾邮件, 但增加正常邮件被标记为垃圾邮件的机率。"
+msgstr ""
+"较低的阈值会拦截更多的垃圾邮件, 但会增加正常邮件被标记为垃圾邮件的机率。"
 
 #: src/js/components/local/suspend-user-dialog.vue:28
 msgid "Abuse"
@@ -1302,10 +1303,11 @@ msgid "Assigned IPs"
 msgstr "已分配的IP"
 
 #: src/js/pages/user/email/spamassassin.vue:146
+#, fuzzy
 msgid ""
 "Attachments will separate the spam into its own message, preventing scripts "
 "from being run."
-msgstr "附件将垃圾邮件分离到自己的邮件中, 从而阻止脚本的运行。"
+msgstr "附件将从垃圾邮件分离到自己的邮件中, 从而阻止脚本的运行。"
 
 #: src/js/pages/admin/brute-force-monitor/index.vue:97
 #: src/js/pages/user/login-history.vue:11
@@ -1443,6 +1445,7 @@ msgid "Available Version"
 msgstr "可用版本"
 
 #: src/js/pages/user/email/catch-all.vue:45
+#, fuzzy
 msgid ""
 "Avoid using the Ignore option unless you know what you are doing. Spammers "
 "will be sending you e-mails to random addresses, and this option will accept "
@@ -1451,9 +1454,9 @@ msgid ""
 "not want the catch-all to be on, then use the Fail option instead."
 msgstr ""
 "除非你知道你自己在做什么，否则请避免使用“忽略”选项。垃圾邮件发送者会通过随机"
-"地址给你发送邮件，而这个选项会让你接收到这些邮件。你不会知道这些邮件的存在因"
-"为这些邮件会被丢弃掉，但这个过程会让服务器大大增加不必要的负载。如果你不想开"
-"启这个catch-all选项，可以考虑使用Fail选项。"
+"地址给你发送邮件，而这个选项会让你接收到这些邮件。你不会看到这些邮件的因为这"
+"些邮件会被丢弃掉，但这个过程会大大增加服务器不必要的负载。如果你不想开启这个"
+"catch-all选项，可以考虑使用Fail选项。"
 
 #: src/js/pages/user/stats/index.vue:268
 #: src/js/pages/user/subdomains/stats.vue:11
