@@ -8628,6 +8628,7 @@ msgid "Some files was not added due to max files size limit"
 msgstr "一些文件因超过大小限制，未被添加"
 
 #: src/js/pages/404.vue:20
+#, fuzzy
 msgid "Sorry, but the page you are looking for can't be found."
 msgstr "对不起, 找不到您要查找的页面。"
 
@@ -8880,6 +8881,7 @@ msgstr "第3步：备份目标"
 #: src/js/pages/admin/backups/schedule.vue:11
 #: src/js/pages/admin/backups/modify.vue:30
 #: src/js/pages/admin/backups/schedule.vue:30
+#, fuzzy
 msgid "Step 4: What"
 msgstr "第4步：备份内容"
 
@@ -9342,7 +9344,7 @@ msgstr "此文件被标记为 \"最高安全级\"。要编辑此文件需要提�
 msgid ""
 "This is the list of e-mail address that will be allowed through, regardless "
 "of content."
-msgstr "此白名单中的邮箱地址，无论内容如何，都将会被通过。"
+msgstr "此白名单中的邮箱地址，无论内容为何，都将会被通过。"
 
 #: src/js/pages/user/email/spamassassin.vue:169
 msgid "This is the list of e-mail address that will be blocked."
@@ -9640,6 +9642,7 @@ msgid "Unlimited"
 msgstr "无限制"
 
 #: src/js/pages/user/email/lists/modify.vue:261
+#, fuzzy
 msgid "Unsubscribe Policy"
 msgstr "退订政策"
 
@@ -10500,6 +10503,7 @@ msgid "You can specify spans using a dash. e.g. 5-7 (minutes 5 to 7)"
 msgstr "时间段可用横杠表示，如：5-7（分钟数为5-7之间的整数）"
 
 #: src/js/pages/user/domains/index.vue:209
+#, fuzzy
 msgid ""
 "You deleted all of your domains. You should create one for full "
 "functionality."
@@ -10511,6 +10515,7 @@ msgid_plural "You have %{ n } unread tickets"
 msgstr[0] "您有%{ n }个未读工单"
 
 #: src/js/pages/user/ssl/_components/certificate-request-dialog.vue:13
+#, fuzzy
 msgid ""
 "You will send this text to a Certificate Authority and they will give you a "
 "Signed Certificate."
@@ -10522,11 +10527,11 @@ msgstr "在创建数据库之前, 您将无法登录phpMyAdmin"
 
 #: src/js/modules/widgets.js:24
 msgid "Your Account"
-msgstr "账号概览"
+msgstr "我的账号"
 
 #: src/js/pages/user/database/_dialogs/upload-backup-dialog.vue:24
 msgid "Your current login information"
-msgstr "您当前的登录信息"
+msgstr "当前的登录信息"
 
 #: src/js/pages/admin/services.vue:87
 msgid "Your Password:"
